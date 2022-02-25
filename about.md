@@ -13,7 +13,7 @@ redirect_from:
 
 <!--author-->
 
-## Hydejack
+## Title 1 
 
 A boutique Jekyll theme for hackers, nerds, and academics.  
 {:.lead}
@@ -23,7 +23,7 @@ A boutique Jekyll theme for hackers, nerds, and academics.
 
 ![Screenshot](assets/img/blog/hydejack-9.jpg){:.lead width="1920" height="1080" loading="lazy"}
 
-Hydejack's cover page on a variety of screen sizes.
+Hydejack's cover page on a variety of screen sizes. <!--이미지 주석-->
 {:.figcaption}
 
 
@@ -35,30 +35,15 @@ It includes a blog that is suitable for both prose and technical documentation, 
 {:.lead}
 
 
-## A Personal Site That Won't Disappear
+## Title 2
 
 **Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
 
 Hydejack is all static sites. _HTML_. All you need is a web server --- any web server --- to have a professional web presence that lasts a lifetime.
 
-## Download
 
-{% include table.md %}
+## Title 3
 
-
-## A Free Blogging Theme
-**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
-
-<!--posts-->
-
-
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
-
-<!--projects-->
-
-
-## A Printable Resume
 Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](assets/Resume.pdf).
 
 [![Resume PDF](assets/img/blog/resume.png){:.lead width="884" height="632" loading="lazy"}][resume]{:.no-hover.no-mark}
