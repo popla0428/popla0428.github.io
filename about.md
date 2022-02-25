@@ -21,18 +21,17 @@ redirect_from:
 
 ### Utilization Tools
 ---
-{:.lead}
 - Language:  
   - ![logo_r](/assets/img/logo_r.png){: width="30" height="30"} R
   - ![logo_py](/assets/img/logo_py.png){: width="30" height="30"} Python
-  - ![logo_py](/assets/img/logo_sql.png){: width="25" height="25"} SQL (Postgresql, MySQL)
+  - ![logo_py](/assets/img/logo_sql.png){: width="25" height="25"} SQL (Postgresql, MySQL) [SQLD 보유]
 - Env: Git, Jupyter, Confluence
 - Open Source: Airflow (협업/요청가능 수준)
-{:.lead}
 
 ### Education
 --- 
-- 고려대학교 통계대학원 졸업 (M.D. 응용통계학 / 생존분석 연구실 소속), 02/2020 졸업 
+- 고려대학교 통계대학원 졸업 (M.D. 응용통계학), 02/2020 졸업 
+  - 생존분석 연구실 소속
   - 연구주제: 중도절단 된 관측 데이터를 활용한 인과관계 (처치 A와 B 비교) 추정량 개선
 - 이화여자대학교 (B.D. 영문학, 경영학), 02/2016 졸업
 - 한가람 고등학교 (인문학), 02/2012 졸업  
@@ -40,14 +39,14 @@ redirect_from:
 ### Work Experience
 ---
 <span style="color: Gray;">08/2020 – present</span>  
-데이터 분석가 (데이터 프로덕트 팀, 유저획득 및 유지전략 팀) 
+데이터 분석가, 마켓컬리 (데이터 프로덕트 팀, 유저획득 및 유지전략 팀) 
 
   - 회원 관련 통계적 분석과 모델링  
     - 내용  
     - 내용
 
 <span style="color: Gray;">08/2019 - 09/2019</span>  
-데이터 분석가 (분석/컨설팅 팀) 
+데이터 분석가, 코리아크래딧뷰로 (분석/컨설팅 팀) 
 
   - 회원 관련 통계적 분석과 모델링  
     - 내용  
@@ -75,9 +74,7 @@ The PRO version has built-in support for customizable [Tinyletter] newsletter su
 
 If you are using a different service like MailChimp, you can build a custom newsletter subscription box using [Custom Forms][forms].
 
-## Features
 
-{% include features.md %}
 
 
 
