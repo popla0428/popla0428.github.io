@@ -9,8 +9,12 @@ author1:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   # (중요) about.md 상단 부분과 연결됨
   about:             |
-    프로덕트 센스.
-    제 레쥬메가 궁금하신 분 [CV](/assets/CV.pdf)
+    프로덕트 센스. 
+    이력서(PDF)를 다운받고 싶으시다면 우측 링크 클릭해 주세요. [CV](/assets/CV.pdf)
+
+    > **SUMMARY**  
+    > 저는 이런 분석가 입니다. 
+    > 이런 과정을 거쳤고, 이런 분석가가 되고자 합니다.
 
   # This photo will be used in the about section
   picture:
