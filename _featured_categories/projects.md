@@ -3,6 +3,8 @@
 layout: list
 
 # The title of the tag's page.
+# 사이드바의 태그 눌러서 들어오면 보이는 타이틀
+# 그래서 사이드바 태그명이랑 같게 하는 것이 좋음
 title: Projects
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
