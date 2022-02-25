@@ -29,7 +29,7 @@ description:           >
   description
 
 # A shorter description for the sidebar.
-tagline:               tagline 
+tagline:               Data Analyst with Product Sense
 
 # A list of keywords for your blog
 keywords:              [Data analysis, Statistics, ML, E-commerce]
@@ -37,7 +37,7 @@ keywords:              [Data analysis, Statistics, ML, E-commerce]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+#logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -50,7 +50,7 @@ author:
 # Add links to the sidebar.
 # 사이드바에서 보이는 타이틀
 menu:
-  - title:             About
+  - title:             About Me
     url:               /about/
   - title:             Work Experience
     url:               /work/
