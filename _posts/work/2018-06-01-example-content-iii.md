@@ -15,6 +15,7 @@ related_posts:
 sitemap: false
 categories:
   - work
+ # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨 
 ---
 
 Hydejack offers a few additional features to markup your markdown.

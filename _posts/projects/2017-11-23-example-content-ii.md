@@ -7,6 +7,7 @@ image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 categories:
   - projects
+ # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨 
 ---
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.

@@ -9,6 +9,7 @@ description: >
 sitemap: false
 categories:
   - work
+ # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨 
 ---
 
 Version 9 is the most complete version of Hydejack yet.
