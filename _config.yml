@@ -19,7 +19,8 @@
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  ko-KR, en-US
 
-# The title of your blog. Used in the sidebar and the browser tab.
+# The title of your blog. 블로그 이름
+# Used in the sidebar and the browser tab.
 title:                 Hyeyoung's Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
