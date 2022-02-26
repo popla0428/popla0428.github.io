@@ -14,14 +14,16 @@ redirect_from:
 
 ### Basic Information
 ---
+> 🔗블로그 전반을 요약한 이력서/경력기술서 PDF파일 입니다:
+> <a href="/assets/CV.pdf" target="_blank">이력서</a> , <a href="/assets/CV.pdf" target="_blank">경력기술서</a>
+
 - Name: 이혜영  
 - Key Position: 데이터 분석가
 - E-mail: popla0428@gmail.com
 
 ### Work Experience
 ---
-
-> 🔗자세한 업무/프로젝트 기술은 [PROJECTS](_featured_categories/projects.md) 페이지에서 확인해 주세요 :)
+> 🔗자세한 업무/프로젝트 기술은 [Projects](_featured_categories/projects.md) 섹션에서 확인해 주세요 :)
 
 <span style="color:rgb(61,60,58);font-weight:bold">08/2020 – present</span>  
 데이터 분석가, 마켓컬리 (데이터 프로덕트 팀, 유저획득 및 유지전략 팀) 

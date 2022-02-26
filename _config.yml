@@ -48,16 +48,15 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
-# 사이드바에서 보이는 타이틀
+# 사이드바에서 보이는 타이틀 
+# (중요) "_featured_categories","_posts" 연결됨
 menu:
   - title:             About Me [CV<sup>*</sup>] 
     url:               /about/
-  - title:             Work Experience
-    url:               /work/
   - title:             Projects
     url:               /projects/
-#  - title:             Résumé*
-#    url:               /resume/
+  - title:             Work Experience
+    url:               /work/    
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
