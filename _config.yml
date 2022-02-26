@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://popla0428.github.io
+url:                   https://popla0428.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -50,7 +50,7 @@ author:
 # Add links to the sidebar.
 # 사이드바에서 보이는 타이틀
 menu:
-  - title:             About Me
+  - title:             About Me [CV<sup>*</sup>] 
     url:               /about/
   - title:             Work Experience
     url:               /work/

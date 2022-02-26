@@ -12,6 +12,40 @@ redirect_from:
 
 <!--author-->
 
+### Basic Information
+---
+- Name: 이혜영  
+- Key Position: 데이터 분석가
+- E-mail: popla0428@gmail.com
+
+### Work Experience
+---
+
+> 🔗자세한 업무/프로젝트 기술은 [PROJECTS](_featured_categories/projects.md) 페이지에서 확인해 주세요 :)
+
+<span style="color:rgb(61,60,58);font-weight:bold">08/2020 – present</span>  
+데이터 분석가, 마켓컬리 (데이터 프로덕트 팀, 유저획득 및 유지전략 팀) 
+
+  - 회원 관련 통계적 분석과 모델링  
+    - 내용  
+    - 내용
+
+<span style="color:rgb(61,60,58);font-weight:bold">08/2019 - 09/2019</span>  
+데이터 분석가, 코리아크래딧뷰로 (분석/컨설팅 팀) 
+
+  - 회원 관련 통계적 분석과 모델링  
+    - 내용  
+    - 내용
+
+### Utilization Tool
+---
+- Language:  
+  - ![logo_r](/assets/img/logo_r.png){: width="30" height="30" oading="lazy"} R
+  - ![logo_py](/assets/img/logo_py.png){: width="30" height="30" oading="lazy"} Python
+  - ![logo_py](/assets/img/logo_sql.png){: width="25" height="25" oading="lazy"} SQL (Postgresql, MySQL) [SQLD 보유]
+- Env: Git, Jupyter, Confluence
+- Open Source: Airflow (협업/요청가능 수준)
+
 ### Field of R&D
 --- 
 - Data Analysis
@@ -19,65 +53,24 @@ redirect_from:
 - Causal Inference (AB test, power analysis, etc.)
 - Predictive Modeling (, etc.)
 
-### Utilization Tools
----
-- Language:  
-  - ![logo_r](/assets/img/logo_r.png){: width="30" height="30"} R
-  - ![logo_py](/assets/img/logo_py.png){: width="30" height="30"} Python
-  - ![logo_py](/assets/img/logo_sql.png){: width="25" height="25"} SQL (Postgresql, MySQL) [SQLD 보유]
-- Env: Git, Jupyter, Confluence
-- Open Source: Airflow (협업/요청가능 수준)
-
 ### Education
 --- 
 - 고려대학교 통계대학원 졸업 (M.D. 응용통계학), 02/2020 졸업 
   - 생존분석 연구실 소속
   - 연구주제: 중도절단 된 관측 데이터를 활용한 인과관계 (처치 A와 B 비교) 추정량 개선
 - 이화여자대학교 (B.D. 영문학, 경영학), 02/2016 졸업
-- 한가람 고등학교 (인문학), 02/2012 졸업  
-
-### Work Experience
----
-<span style="color: Gray;">08/2020 – present</span>  
-데이터 분석가, 마켓컬리 (데이터 프로덕트 팀, 유저획득 및 유지전략 팀) 
-
-  - 회원 관련 통계적 분석과 모델링  
-    - 내용  
-    - 내용
-
-<span style="color: Gray;">08/2019 - 09/2019</span>  
-데이터 분석가, 코리아크래딧뷰로 (분석/컨설팅 팀) 
-
-  - 회원 관련 통계적 분석과 모델링  
-    - 내용  
-    - 내용
-
-`w3m`: 
-![w3m Screenshot](assets/img/blog/w3m.png){:.tail width="1920" height="1260" loading="lazy"}
-
-The Hydejack blog, as seen by the text browser `w3m`.
-{:.figcaption}
-
-```html
-<!-- file: `_includes/my-body.html` -->
-<script type="module">
-  document.querySelector("hy-push-state").addEventListener("hy-push-state-load", () => {
-    const supportsCodeHighlights = false; // TBD!!
-  });
-</script>
-```
-
-Code blocks can have a filename and a caption.
-{:.figcaption}
-
-The PRO version has built-in support for customizable [Tinyletter] newsletter subscription boxes.
-
-If you are using a different service like MailChimp, you can build a custom newsletter subscription box using [Custom Forms][forms].
+- 한가람 고등학교 (인문학), 02/2012 졸업
+- Online Course [Data Science, Statistics]
+  - Coursera, Machine Learning (Stanford) <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">LINK</a>
+  - Coursera, Improving your statistical inferences (Eindhoven Univ of Tech) <a href="https://www.coursera.org/learn/statistical-inferences/" target="_blank">LINK</a>
 
 
 
+*E.O.D.*
 
 
+
+<!--shortcuts-->
 [blog]: /
 [portfolio]: https://hydejack.com/examples/
 [resume]: https://hydejack.com/resume/
