@@ -51,8 +51,9 @@ author:
 # 사이드바에서 보이는 타이틀 
 # (중요) "_featured_categories","_posts" 연결됨
 # (중요) url은 매칭key 같은 거로 생각하자. 
+  # title:             About Me[CV<sup>*</sup>]
 menu:
-  - title:             About Me [CV<sup>*</sup>] 
+  - title:             About Me 
     url:               /about/
   
   - title:             Projects
@@ -62,7 +63,7 @@ menu:
     url:               /study/
     submenu:      
       - title:		        Study-topic1
-        url:			        /study1/
+        url:			        /통계적-추론/
       - title:		        Study-topic2
         url:			        /study2/        
       - title:		        Study-topic3
