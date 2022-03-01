@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example Content II
+title: Example Content II COPY
 description: >
   A page showing how regular markdown content is styled in Hydejack.
 image: /assets/img/blog/example-content-ii.jpg
