@@ -62,11 +62,11 @@ menu:
   - title:             Study
     url:               /study/
     submenu:      
-      - title:		        통계적 추론
+      - title:		        Study-topic1
         url:			        /통계적-추론/
-      - title:		        인과적 추론
+      - title:		        Study-topic2
         url:			        /인과적-추론/        
-      - title:		        코세라 강의리뷰
+      - title:		        Study-topic3
         url:			        /코세라-강의리뷰/        
 
 # Add links to the footer.
