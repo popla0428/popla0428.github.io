@@ -9,7 +9,7 @@ description: >
 sitemap: false
 categories:
   - study
-  - 코세라-강의
+  - 코세라-강의리뷰
  # 글이 소속되는 카테고리 
  # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨 
 ---
