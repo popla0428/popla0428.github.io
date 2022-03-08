@@ -65,9 +65,9 @@ menu:
       - title:		        Study-topic1
         url:			        /통계적-추론/
       - title:		        Study-topic2
-        url:			        /study2/        
+        url:			        /인과적-추론/        
       - title:		        Study-topic3
-        url:			        /study3/        
+        url:			        /Coursera-강의/        
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
