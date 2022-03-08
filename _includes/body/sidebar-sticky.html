@@ -1,5 +1,5 @@
 <div class="sidebar-sticky">
-    <div class="sidebar-about" style="margin-bottom: 10px;">
+    <div class="sidebar-about" style="margin-bottom: 5px;">
 
         <!--블로그타이틀-->
         <div class="sidebartitle" style="margin-bottom: 95px;">
@@ -7,6 +7,7 @@
                 <h2 class="h1">{{ site.short_title | default:site.title }}</h2>
             </a>
         </div>
+
         <!--블로그 간단한 설명-->
         {% assign text = site.tagline | default:site.description %}
         {% if text %}
@@ -14,7 +15,6 @@
             {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
         </p>
 
-        
         <nav class="sidebar-nav heading" role="navigation">
             {% include body/nav.html %}
         </nav>
