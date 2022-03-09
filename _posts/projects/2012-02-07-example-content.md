@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example Content
+tags: [tag1, tag2]
 description: >
   Example Content 소개
 sitemap: false
