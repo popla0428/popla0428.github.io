@@ -23,7 +23,7 @@ redirect_from:
 
 ### Work Experience
 ---
-> 🔗자세한 업무/프로젝트 기술은 [Projects](_featured_categories/projects.md) 섹션에서 확인해 주세요 :)
+> 🔗자세한 업무/프로젝트 기술은 [Projects] 섹션에서 확인해 주세요 :)
 
 <span style="color:rgb(61,60,58);font-weight:bold">08/2020 – present</span>  
 데이터 분석가, 마켓컬리 (데이터 프로덕트 팀, 유저획득 및 유지전략 팀) 
@@ -66,6 +66,12 @@ redirect_from:
   - Coursera, Machine Learning (Stanford) <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">LINK</a>
   - Coursera, Improving your statistical inferences (Eindhoven Univ of Tech) <a href="https://www.coursera.org/learn/statistical-inferences/" target="_blank">LINK</a>
 
+### Teaching 
+---
+- 고려대학교 응용통계학부 조교, 다변량 
+- 고려대학교 응용통계학부 조교, 수업이름
+
+---
 
 
 *E.O.D.*
@@ -79,6 +85,9 @@ redirect_from:
 [download]: https://hydejack.com/download/
 [welcome]: https://hydejack.com/
 [forms]: https://hydejack.com/forms-by-example/
+[Projects]: _featured_categories/projects.md
+[Study]: _featured_categories/study.md
+[About]: about.md
 
 [features]: #features
 [news]: #build-an-audience
