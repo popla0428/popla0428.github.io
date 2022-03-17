@@ -444,6 +444,6 @@ tipue_search:
     pages: false
     collections: []
   exclude:
-    files: []
+    files: [search.html, my-head.html]
     categories: []
     tags: []
