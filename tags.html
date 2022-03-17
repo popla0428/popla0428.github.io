@@ -1,0 +1,89 @@
+---
+layout: base
+title: Tags Index
+sitemap: false
+hide_last_modified: true
+slug: tags
+---
+<!-- site.tags tag1 :[ tag1, tag1, tag1] tag2 :[ tag2, tag2,tag2, tag2] 
+site_tags  = tag1, tag2, tag3, ...
+tags_list [tag1,tag2,tag3,tag4]
+-->
+<h1 id="tags-index">Tags Index</h1>
+{% capture site_tags %}{% for tag in site.tags %}{% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}
+{% assign all_tags = site_tags %}
+{% assign tags_list = all_tags | split:',' | uniq | sort %}
+{% for tag in tags_list %}
+<span class="tag" data-tag="{{ tag }}">
+    {{ tag }}   
+</span>
+<!-- span -->
+{% endfor %}
+
+{% for tag in tags_list %}
+    {% if tag %}
+      
+        <div class="post-list" style="margin-bottom:40px" data-{{ tag }}>
+            <h3 id="{{ tag | replace: '/', '-' }}" class="linked-section">{{ tag }}</h3>
+            {% for post in site.tags[tag] %}
+            <div class="tag-entry">        
+            <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+            <time style="font-style:italic; float:right" datetime="{{- post.date | date_to_xmlschema -}}"> {{- post.date | date: "%B %d, %Y" -}}</time>
+             </div>
+             {%- endfor -%}       
+        </div>
+    {% endif %}
+{%- endfor -%}
+
+<script>
+    
+    $(document).ready(function() {
+
+        let currentTag = "";
+        const queryTag = getQuery().tag;
+     
+        if (queryTag) {
+            currentTag = queryTag;
+            filterByTagName(currentTag)
+        }
+        //binding event
+        $(".tag").click((e) => {
+            currentTag = e.target.dataset.tag;
+            filterByTagName(currentTag);
+            updateQueryString(currentTag);
+        })
+    });
+   
+    function getQuery() {     
+        var params = {};  
+    
+        window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+            function(str, key, value) { 
+                params[key] = value; 
+            }
+        );     
+        
+        return params; 
+    }
+
+    function updateQueryString(tagName) {
+
+        const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
+        window.history.replaceState({ path }, '', path);
+    }
+
+   
+
+    function filterByTagName(tagName) {
+        $('.hidden').removeClass('hidden');
+
+        $('.post-list').each((index, elem) => {
+            //elem -> element (ex. div) has data-tag1
+            if (!elem.hasAttribute(`data-${tagName}`)) {
+            $(elem).addClass('hidden');
+            }
+        });
+        $(`.tag`).removeClass('selected');
+        $(`.tag[data-tag=${tagName}]`).addClass('selected');
+    }
+</script>
