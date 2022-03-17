@@ -68,7 +68,8 @@ menu:
         url:			        /인과적-추론/        
       - title:		        코세라 강의리뷰
         url:			        /코세라-강의리뷰/        
-
+  - title:             Tags
+    url:               /tags/ 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
