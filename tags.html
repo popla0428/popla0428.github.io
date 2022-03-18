@@ -10,7 +10,7 @@ site_tags  = tag1, tag2, tag3, ...
 tags_list [tag1,tag2,tag3,tag4]
 -->
 
-<h1 id="tags-index">Tags Index</h1>
+<h1 id="tags-index">Posts by Tag</h1>
 {% capture site_tags %}{% for tag in site.tags %}{% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}
 {% assign all_tags = site_tags %}
 {% assign tags_list = all_tags | split:',' | uniq | sort %}
@@ -35,54 +35,3 @@ tags_list [tag1,tag2,tag3,tag4]
         </div>
     {% endif %}
 {%- endfor -%}
-
-<script>
-    
-    $(document).ready(function() {
-
-        let currentTag = "";
-        const queryTag = getQuery().tag;
-     
-        if (queryTag) {
-            currentTag = queryTag;
-            filterByTagName(currentTag)
-        }
-        //binding event
-        $(".tag").click((e) => {
-            currentTag = e.target.dataset.tag;
-            filterByTagName(currentTag);
-            updateQueryString(currentTag);
-        })
-    });
-   
-    function getQuery() {     
-        var params = {};  
-    
-        window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
-            function(str, key, value) { 
-                params[key] = value; 
-            }
-        );     
-        
-        return params; 
-    }
-
-    function updateQueryString(tagName) {
-
-        const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
-        window.history.replaceState({ path }, '', path);
-    }
-
-    function filterByTagName(tagName) {
-        $('.hidden').removeClass('hidden');
-
-        $('.post-list').each((index, elem) => {
-            //elem -> element (ex. div) has data-tag1
-            if (!elem.hasAttribute(`data-${tagName}`)) {
-            $(elem).addClass('hidden');
-            }
-        });
-        $(`.tag`).removeClass('selected');
-        $(`.tag[data-tag=${tagName}]`).addClass('selected');
-    }
-</script>
