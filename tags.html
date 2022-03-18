@@ -5,10 +5,9 @@ sitemap: false
 hide_last_modified: true
 slug: tags
 ---
-<!-- site.tags tag1 :[ tag1, tag1, tag1] tag2 :[ tag2, tag2,tag2, tag2] 
-site_tags  = tag1, tag2, tag3, ...
-tags_list [tag1,tag2,tag3,tag4]
--->
+<!-- site.tags tag1 :[ tag1, tag1, tag1] tag2 :[ tag2, tag2,tag2, tag2] -->
+<!--site_tags  = tag1, tag2, tag3, ... -->
+<!--tags_list [tag1,tag2,tag3,tag4] -->
 
 <h1 id="tags-index">Posts by Tag</h1>
 {% capture site_tags %}{% for tag in site.tags %}{% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}
@@ -36,7 +35,6 @@ tags_list [tag1,tag2,tag3,tag4]
 {%- endfor -%}
 
 <script>
-    
     $(document).ready(function() {
 
         let currentTag = "";
@@ -46,7 +44,7 @@ tags_list [tag1,tag2,tag3,tag4]
             currentTag = queryTag;
             filterByTagName(currentTag)
         }
-        //binding event
+        /* binding event */ 
         $(".tag").click((e) => {
             currentTag = e.target.dataset.tag;
             filterByTagName(currentTag);
@@ -76,7 +74,7 @@ tags_list [tag1,tag2,tag3,tag4]
         $('.hidden').removeClass('hidden');
 
         $('.post-list').each((index, elem) => {
-            //elem -> element (ex. div) has data-tag1
+            /* elem -> element (ex. div) has data-tag1 */
             if (!elem.hasAttribute(`data-${tagName}`)) {
             $(elem).addClass('hidden');
             }
