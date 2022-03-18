@@ -23,7 +23,6 @@ tags_list [tag1,tag2,tag3,tag4]
 
 {% for tag in tags_list %}
     {% if tag %}
-      
         <div class="post-list" style="margin-bottom:40px" data-{{ tag }}>
             <h3 id="{{ tag | replace: '/', '-' }}" class="linked-section">{{ tag }}</h3>
             {% for post in site.tags[tag] %}
@@ -35,3 +34,54 @@ tags_list [tag1,tag2,tag3,tag4]
         </div>
     {% endif %}
 {%- endfor -%}
+
+<script>
+    
+    $(document).ready(function() {
+
+        let currentTag = "";
+        const queryTag = getQuery().tag;
+     
+        if (queryTag) {
+            currentTag = queryTag;
+            filterByTagName(currentTag)
+        }
+        //binding event
+        $(".tag").click((e) => {
+            currentTag = e.target.dataset.tag;
+            filterByTagName(currentTag);
+            updateQueryString(currentTag);
+        })
+    });
+   
+    function getQuery() {     
+        var params = {};  
+    
+        window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+            function(str, key, value) { 
+                params[key] = value; 
+            }
+        );     
+        
+        return params; 
+    }
+
+    function updateQueryString(tagName) {
+
+        const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
+        window.history.replaceState({ path }, '', path);
+    }
+
+    function filterByTagName(tagName) {
+        $('.hidden').removeClass('hidden');
+
+        $('.post-list').each((index, elem) => {
+            //elem -> element (ex. div) has data-tag1
+            if (!elem.hasAttribute(`data-${tagName}`)) {
+            $(elem).addClass('hidden');
+            }
+        });
+        $(`.tag`).removeClass('selected');
+        $(`.tag[data-tag=${tagName}]`).addClass('selected');
+    }
+</script>
