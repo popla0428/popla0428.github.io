@@ -51,14 +51,12 @@ author:
 # 사이드바에서 보이는 타이틀 
 # (중요) "_featured_categories","_posts" 연결됨
 # (중요) url은 매칭key 같은 거로 생각하자. 
-  # title:             About Me[CV<sup>*</sup>]
+
 menu:
   - title:             About Me 
-    url:               /about/
-  
+    url:               /about/  
   - title:             Projects
     url:               /projects/
-
   - title:             Study
     url:               /study/
     submenu:      
@@ -68,8 +66,9 @@ menu:
         url:			        /인과적-추론/        
       - title:		        코세라 강의리뷰
         url:			        /코세라-강의리뷰/        
-
-  - title:            Tags 
+  - title:            Finance
+    url:              /rich/
+  - title:            태그 별 포스트 
     url:              /tags/
 
 # Add links to the footer.

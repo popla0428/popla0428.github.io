@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Posts by Tag
+title: 태그 별 포스트
 sitemap: false
 hide_last_modified: true
 slug: tags
@@ -9,7 +9,7 @@ slug: tags
 <!--site_tags  = tag1, tag2, tag3, ... -->
 <!--tags_list [tag1,tag2,tag3,tag4] -->
 
-<h1 id="tags-index">Posts by Tag</h1>
+<h1 id="tags-index">태그 별 포스트</h1>
 {% capture site_tags %}{% for tag in site.tags %}{% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}
 {% assign all_tags = site_tags %}
 {% assign tags_list = all_tags | split:',' | uniq | sort %}
