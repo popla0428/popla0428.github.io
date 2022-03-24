@@ -29,7 +29,7 @@ redirect_from:
 <span style="color:rgb(61,60,58);font-weight:bold;font-size:11.0pt">데이터 분석가, 마켓컬리</span>   
 <span style="color:rgb(61,60,58);font-size:10.0pt">데이터 프로덕트 팀 (Advanced Analytics), 유저획득 및 유지전략 팀 (Marketing)</span>
 
-*  **프로모션 효율 고도화를 위한 분석 프로젝트**
+*  **APP푸시 효율 고도화를 위한 실험과 분석 프로젝트**
     - APP푸시 효율을 높이기 위한 가설 및 AB 테스트 기획, 결과 분석, 대시보드 제작
     - 내용추가
 *  **고객가치 측정을 위한 통계적 분석과 모델링**
