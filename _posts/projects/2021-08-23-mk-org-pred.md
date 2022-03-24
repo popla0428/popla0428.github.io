@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Example Content II COPY
-tags: [tag1, tag2]
+title: 고객의 자연구매 여부 예측 모델링
+tags: [고객가치, 예측]
 description: >
   A page showing how regular markdown content is styled in Hydejack.
 image: /assets/img/blog/example-content-ii.jpg

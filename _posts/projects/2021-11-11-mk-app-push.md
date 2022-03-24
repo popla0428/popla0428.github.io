@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Example Content
-tags: [tag1, tag2]
+title: APP푸시 효율 고도화를 위한 실험과 분석 프로젝트
+tags: [AB테스트, 앱푸시]
 description: >
   Example Content 소개
 sitemap: false
@@ -11,9 +11,6 @@ categories:
 # 글이 소속되는 카테고리  
 # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨  
 ---
-
-{% include youtubePlayer.html id="zJvu0j4UaIM" %}  
-
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 

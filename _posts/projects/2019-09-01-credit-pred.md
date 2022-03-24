@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Example Content II
-tags: [tag1, tag2]
+title: 고객의 신용 우불량 예측 모델링
+tags: [예측, 신용평가]
 description: >
   A page showing how regular markdown content is styled in Hydejack.
 image: /assets/img/blog/example-content-ii.jpg
