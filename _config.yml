@@ -68,6 +68,11 @@ menu:
         url:			        /코세라-강의리뷰/        
   - title:            Finance
     url:              /rich/
+    submenu:
+      - title:             투자도서 리뷰
+        url:               /리뷰-투자도서/
+      - title:             투자강의 리뷰
+        url:                /리뷰-투자강의/ 
   - title:            태그 별 포스트 
     url:              /tags/
 
