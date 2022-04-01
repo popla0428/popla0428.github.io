@@ -70,9 +70,9 @@ menu:
     url:              /rich/
     submenu:
       - title:             투자도서 리뷰
-        url:               /리뷰-투자도서/
+        url:               /투자도서-리뷰/
       - title:             투자지식 리뷰
-        url:                /리뷰-투자지식/ 
+        url:               /투자지식-리뷰/ 
   - title:            태그 별 포스트 
     url:              /tags/
 
