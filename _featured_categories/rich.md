@@ -1,23 +1,21 @@
 ---
-# Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: list
-
-# The title of the tag's page.
-# 사이드바의 태그 눌러서 들어오면 보이는 타이틀
-# 그래서 사이드바 태그명이랑 같게 하는 것이 좋음
-title: Working Money
-
-# The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
+bigtitle: Working Money
 slug: rich
-
-# (Optional) Write a short (~150 characters) description of this featured tag.
+menu: true
+submenu: true
 description: >
-  This is a featured category, which have their own page.
-
-# (Optional) You can disable grouping posts by date.
-# no_groups: true
-
-# Exclude this example category from the sitemap.
-# DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
+  투자 공부
 ---
+
+# Working Money
+
+## 포스트 하위주제
+
+* [투자도서 리뷰]{:.heading.flip-title}
+* [투자강의 리뷰]{:.heading.flip-title}
+
+<!-- 여기서 서브카테고리.md 태그("/tag/")랑 [내가 노출하고 싶은 이름] 매칭하면, 간편하게 노출 카테고리 이름을 바꿀 수 있음 -->
+<!-- 그러나, 그 서브카테고리 클릭하면 슬래시 안에 쓴 이름으로 바뀌는 오류남 ㅠ -->
+[투자도서 리뷰]: /리뷰-투자도서/
+[투자강의 리뷰]: /리뷰-투자강의/
