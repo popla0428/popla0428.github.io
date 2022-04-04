@@ -15,7 +15,7 @@ redirect_from:
 ### Basic Information
 ---
 > 🔗블로그 전반을 요약한 이력서/경력기술서 PDF파일 입니다:
-> <a href="/assets/CV.pdf" target="_blank">이력서</a> , <a href="/assets/CV.pdf" target="_blank">경력기술서</a>
+> <a href="/assets/CV.pdf" target="_blank">이력서</a> , <a href="/assets/CV_ENG.pdf" target="_blank">RESUME (ENG)</a> , <a href="/assets/CV.pdf" target="_blank">경력기술서</a>
 
 - Name: 이혜영  
 - Key Position: 데이터 분석가
