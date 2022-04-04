@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 피터 린치,존 로스차일드,\<전설로 떠나는 월가의 영웅\> 
+title: 피터 린치,\<전설로 떠나는 월가의 영웅\> 
 tags: [투자도서]
 description: >
   피터 린치 
@@ -15,7 +15,7 @@ categories:
 # 커밋 메시지 예시: "Edit content - rich-book-bodo"
 ---
 
-# 피터 린치,존 로스차일드,\<전설로 떠나는 월가의 영웅\>
+# 피터 린치,\<전설로 떠나는 월가의 영웅\>
 
 * toc
 {:toc .large-only}
