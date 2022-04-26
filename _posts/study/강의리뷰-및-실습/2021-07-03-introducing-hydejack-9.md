@@ -2,17 +2,24 @@
 layout: post
 title: Introducing Hydejack 9
 tags: [tag1, tag2]
-image: 
-  path: /assets/img/blog/jeremy-bishop@0,5x.jpg
 description: >
-  Version 9 is the most complete version of Hydejack yet.
-  Modernized design, big headlines, and big new features.
+  A page showing Hydejack-specific markdown content.
+image: 
+  path: /assets/img/blog/example-content-iii.jpg
+  srcset:
+    1060w: /assets/img/blog/example-content-iii.jpg
+    530w:  /assets/img/blog/example-content-iii@0,5x.jpg
+    265w:  /assets/img/blog/example-content-iii@0,25x.jpg
+related_posts:
+  - example/_posts/2017-11-23-example-content-ii.md
+  - /example/2012-02-07-example-content/
 sitemap: false
 categories:
   - study
-  - 코세라-강의리뷰
+  - 강의리뷰-및-실습
  # 글이 소속되는 카테고리 
  # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨 
+
 ---
 
 Version 9 is the most complete version of Hydejack yet.
