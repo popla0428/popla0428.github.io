@@ -13,7 +13,7 @@ description: >
 ## 포스트 하위주제
 
 * [통계적 추론]{:.heading.flip-title}
-* [프로그래밍]{:.heading.flip-title}
+* [프로그래밍 ]{:.heading.flip-title}
 * [강의리뷰 & 실습]{:.heading.flip-title}
 
 <!-- 여기서 서브카테고리.md 태그("/tag/")랑 [내가 노출하고 싶은 이름] 매칭하면, 간편하게 노출 카테고리 이름을 바꿀 수 있음 -->
