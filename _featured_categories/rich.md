@@ -8,7 +8,7 @@ description: >
   투자 공부
 ---
 
-# Working Money
+# Grow Rich <!--상단의 bigtitle 보다 우선적용 되어 노출되는 이름-->
 
 ## 포스트 하위주제
 
