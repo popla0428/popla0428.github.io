@@ -16,7 +16,7 @@ categories:
 
 ---
 
-## /[코세라-ML/] Chap03 - 로지스틱 회귀, 정규화 (Regularization) 
+## [코세라-ML] Chap03 - 로지스틱 회귀, 정규화 (Regularization) 
 
 ### 로지스틱 회귀 (Logistic Regression)
 
