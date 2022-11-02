@@ -73,8 +73,6 @@ menu:
         url:               /투자도서-리뷰/
       - title:             투자지식 리뷰
         url:               /투자지식-리뷰/
-      - title:             성공일지 
-        url:               /성공일지/ 
   - title:            태그 별 포스트 
     url:              /tags/
 
