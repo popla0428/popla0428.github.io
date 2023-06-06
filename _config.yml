@@ -32,7 +32,7 @@ description:           >
 tagline:               Data Analyst with Product Sense
 
 # A list of keywords for your blog
-keywords:              [Data analysis, Statistics, ML]
+keywords:              [Data analysis, Statistics, ML, Marketing, Business, Product]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -66,13 +66,6 @@ menu:
         url:			        /프로그래밍/        
       - title:		        강의리뷰 & 실습
         url:			        /강의리뷰-및-실습/        
-  - title:            Grow Rich
-    url:              /rich/
-    submenu:
-      - title:             투자도서 리뷰
-        url:               /투자도서-리뷰/
-      - title:             투자지식 리뷰
-        url:               /투자지식-리뷰/
   - title:            태그 별 포스트 
     url:              /tags/
 
