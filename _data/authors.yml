@@ -10,23 +10,23 @@ author1:
   # (중요) about.md 상단 부분과 연결됨
   about:             |    
     <span style="color:rgb(6,72,85);font-weight:bold;font-size:13.0pt"> 👩🏻‍💻**'쓰이는 분석'에 집착하는 데이터 분석가입니다.** </span>  
-    > ● 데이터 프로덕트 / 비즈니스 의사결정에 실질적 도움이 되는 분석을 추구합니다. 
+    > ● 데이터 프로덕트 / 비즈니스 의사결정에 실질적 도움이 되는 분석을 추구합니다.    
     > ● 도메인과 조직의 BM에 대한 이해를 기반으로 문제를 정의하고 분석합니다.
   
   # This photo will be used in the about section
   picture:
-    path:            /assets/me/logo_fire.png
+    path:            /assets/me/logo_fire.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/me/me.jpg
-      2x:            /assets/me/me.jpg
+      1x:            /assets/me/me.jpg # 사용안함 
+      2x:            /assets/me/me.jpg # 사용안함
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
     github:          popla0428
-    linkedin:        helen0428
+    linkedin:        popla0428
     email:           popla0428@gmail.com
     # stackoverflow:   <number/username>
     # twitter:         <username>
@@ -65,7 +65,7 @@ author1:
     # download:        <url>
     # keybase          <username>
 
-# Another author (optional)
+# Another author (optional) # 사용안함
 author2:
   name:              <firtname> <lastname>
   email:             <mail@domain.tld>
