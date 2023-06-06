@@ -15,26 +15,41 @@ redirect_from:
 ### Basic Information
 ---
 > 🔗블로그 전반을 요약한 이력서/경력기술서 PDF파일 입니다:
-> <a href="/assets/CV.pdf" target="_blank">이력서</a> , <a href="/assets/CV_ENG.pdf" target="_blank">RESUME (ENG)</a> , <a href="/assets/CV.pdf" target="_blank">경력기술서</a>
+> <a href="/assets/CV.pdf" target="_blank">이력서</a> , <a href="/assets/CV_ENG.pdf" target="_blank">RESUME (ENG)</a> , <a href="/assets/CV_KOR.pdf" target="_blank">경력기술서</a>
 
 - Name: 이혜영  
-- Key Position: 데이터 분석가
-- E-mail: popla0428@gmail.com
+- Key Position : 데이터 분석가  
+- Field of Exp﹒R&D : statistical inference, predictive modeling (customer value/churn), data product (dashboards) <!--한국어로 바꾸기-->
+- E-mail : popla0428@gmail.com    
+
+### Education
+---
+- **고려대학교 통계대학원 졸업 (M.D. 응용통계학), 02/2020 졸업**
+  - 생존분석 연구실 소속
+  - 연구주제: 중도절단 된 관측 데이터를 활용한 인과관계 추정량 개선 (처치 간 비교)
+  - 학위논문:  
+  Double-robust Estimator for Differences in Restricted Mean Survival Time in Observational Studies: using pseudo observations
+  <a href="https://www.researchgate.net/publication/338476737_Double-robust_Estimator_for_Differences_in_Restricted_Mean_Survival_Time_in_Observational_Studies_using_pseudo-observations/" target = "_blank">Full-Text</a>
+  - 기타 활동: 응용통계학부 다변량분석 조교
+- **이화여자대학교 (B.D. 영문학, 경영학), 02/2016 졸업**
+- **한가람 고등학교, 02/2012 졸업**
+- **Online Courses [Data Science, Statistics]**
+  - Coursera, 2023, Data analytics methods for marketing (by Meta) <a href="https://www.coursera.org/learn/data-analytics-methods-for-marketing/home/info" target="_blank">LINK</a>
+  - Coursera, 2022, Improving your statistical inferences (Eindhoven Univ of Tech) <a href="https://www.coursera.org/learn/statistical-inferences/" target="_blank">LINK</a>  
+  - SK Tacademy, 2022, AB테스트 기법  <a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=160/" target="_blank">LINK</a>   
 
 ### Work Experience
----
-> 🔗자세한 업무/프로젝트 기술은 [Projects] 섹션에서 확인해 주세요 :)
-
+---  
 <span style="color:rgb(6,72,85);font-weight:bold;font-size:13.0pt">08/2020 – present</span>  
 <span style="color:rgb(61,60,58);font-weight:bold;font-size:11.0pt">데이터 분석가, 마켓컬리</span>   
 <span style="color:rgb(61,60,58);font-size:10.0pt">데이터 프로덕트 팀 (Advanced Analytics), 유저획득 및 유지전략 팀 (Marketing)</span>
 
-*  **프로모션 효율 고도화를 위한 분석 프로젝트**
-    - APP푸시 효율을 높이기 위한 가설 및 AB 테스트 기획, 결과 분석, 대시보드 제작
-    - 내용추가
 *  **고객가치 측정을 위한 통계적 분석과 모델링**
     - 회원의 자연구매 여부 예측 모델링 (*자연구매*: 혜택성 푸시를 받지 않고 자발적으로 일어난 구매)
-    - 예측 결과 기반의 혜택성 푸시 기획 
+    - 예측 결과 기반의 혜택성 푸시 기획  
+*  **APP푸시 효율 고도화를 위한 실험과 분석 프로젝트**
+    - APP푸시 효율을 높이기 위한 가설 및 AB 테스트 기획, 결과 분석, 대시보드 제작
+    - 내용추가
 * **평가지표 산출과 대시보드 관리**
     - 마케팅 현황 진단과 의사결정에 사용되는 지표산출 코드를 작성, 관리함
     - 담당 대시보드: 고객 대시보드, 세일즈 대시보드
@@ -62,36 +77,10 @@ redirect_from:
 - Language:  
   - ![logo_r](/assets/img/logo_r.png){: width="30" height="30" oading="lazy"} R
   - ![logo_py](/assets/img/logo_py.png){: width="30" height="30" oading="lazy"} Python
-  - ![logo_py](/assets/img/logo_sql.png){: width="25" height="25" oading="lazy"} SQL (Postgresql, MySQL) [SQLD 보유]
-- BI: Tableau (태블로)
+  - ![logo_py](/assets/img/logo_sql.png){: width="25" height="25" oading="lazy"} SQL (Postgresql, BigQuery) [SQLD 보유]
+- BI: Tableau (태블로), LookerStudio (GCP 루커스튜디오)
 - Env: Git, Jupyter, Confluence
 - Open Source: Airflow (협업/요청가능 수준)
-
-### Field of R&D
----
-- Data Analysis
-- Statistical Inference
-- Causal Inference (AB test, power analysis, etc.)
-- Predictive Modeling (, etc.)
-
-### Education
----
-- **고려대학교 통계대학원 졸업 (M.D. 응용통계학), 02/2020 졸업**
-  - 생존분석 연구실 소속
-  - 연구주제: 중도절단 된 관측 데이터를 활용한 인과관계 (처치 A와 B 비교) 추정량 개선
-  - 학위논문:  
-  Double-robust Estimator for Differences in Restricted Mean Survival Time in Observational Studies: using pseudo observations
-  <a href="https://www.researchgate.net/publication/338476737_Double-robust_Estimator_for_Differences_in_Restricted_Mean_Survival_Time_in_Observational_Studies_using_pseudo-observations/" target = "_blank">Full-Text</a>
-  - 기타 활동: 응용통계학부 다변량분석 조교
-  - 기타 연구: 
-    - 수면논문
-    - 통계상담
-- **이화여자대학교 (B.D. 영문학, 경영학), 02/2016 졸업**
-- **한가람 고등학교 (인문학), 02/2012 졸업**
-- **Online Course [Data Science, Statistics]**
-  - Coursera, Machine Learning (Stanford) <a href="https://www.coursera.org/learn/machine-learning/" target="_blank">LINK</a>
-  - Coursera, Improving your statistical inferences (Eindhoven Univ of Tech) <a href="https://www.coursera.org/learn/statistical-inferences/" target="_blank">LINK</a>
-
 
 ---
 
