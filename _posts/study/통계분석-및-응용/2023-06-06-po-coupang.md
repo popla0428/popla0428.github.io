@@ -1,7 +1,7 @@
 ---
 layout: post
-title: /[번역/] How Not to Run an A/B Test
-tags: [tag1, tag2]
+title: /[리뷰,PO/] 쿠팡 UX Club 포스트 
+tags: [PO, UX, Coupang]
 image: 
   path: /assets/img/blog/jeremy-bishop@0,5x.jpg
 description: >
@@ -12,10 +12,11 @@ categories:
   - study
   - 통계분석-및-응용
  # 글이 소속되는 카테고리 
- # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨 
+ # 하단 글 작성에서 샾 하나짜리 (#) 제목 쓰면 위의 title 보다 더 우선 적용노출됨
+ # fix: '2023-06-07-abt-coupang.md' 이름변경,수정
 ---
 
-## [번역] How Not to Run an A/B Test  
+## [리뷰,PO] 쿠팡 UX Club 포스트   
 
 **NOTE**  
 쿠팡 UX디자인팀의 <a href="https://brunch.co.kr/@coupangdesign/71" target = "_blank">쿠팡 UX Club (디자이너의 고민, 그리고 경험에서 찾은 솔루션) 포스트 1~3편 (2021-10)</a> 리뷰.
