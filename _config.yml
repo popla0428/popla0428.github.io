@@ -50,7 +50,7 @@ author:
 # Add links to the sidebar.
 # 사이드바에서 보이는 타이틀 
 # (중요) "_featured_categories","_posts" 연결됨
-# (중요) url은 매칭key 같은 거로 생각하자. 
+# (중요) url은 매칭시키는 key값 같은 거로 생각하자. 
 
 menu:
   - title:             About Me 
@@ -60,8 +60,8 @@ menu:
   - title:             Study
     url:               /study/
     submenu:      
-      - title:		        통계적 추론
-        url:			        /통계적-추론/
+      - title:		        통계분석 & 응용
+        url:			        /통계분석-및-응용/
       - title:		        프로그래밍
         url:			        /프로그래밍/        
       - title:		        강의리뷰 & 실습
